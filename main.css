@@ -1,0 +1,56 @@
+body{
+display: flex;
+flex-direction: row-reverse;
+
+}
+h1{ 
+    margin: 10%;
+font-family:  'Arial Narrow Bold', sans-serif}
+.dashboard{
+     text-align: center;
+     font-size: 150%;
+     color: rgb(60, 139, 212);
+}
+.weatherBox{
+  border: solid;
+  text-align: center;
+  margin: 10%;
+  padding: 3%;
+  font-family: sans-serif;
+    
+}
+.gifDiv{
+    text-align: center;
+    margin-top: 30%;
+}
+.newsFeed{
+    width: 70%;
+    align-self: center;
+    padding: 2% 10%;
+    
+}
+img{
+    size: 100%;
+    width: 75%;
+}
+.defaultWeather{
+    color: gray;
+    font-family: sans-serif;
+}
+.currentWeather{
+    margin: 1%;
+}
+input{
+    width: 50%;
+}
+button {
+    width: 50%;
+}
+.extras{
+
+    width: 30%;
+}
+.articleImage{
+    width: 50%;
+    
+}
