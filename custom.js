@@ -14,7 +14,7 @@ const getJSON = function(url, callback) {
 };
 const ghentWeather = 'http://api.openweathermap.org/data/2.5/weather?q=Ghent,BE&APPID=94bb7df9549b5cb44260ed13d2df12ba&units=metric';
 fetch(ghentWeather, {
-  method: 'GET', // or 'PUT'
+  method: 'GET', 
   headers: new Headers({
       'Accept': 'application/json',
   })
@@ -37,7 +37,7 @@ let weatherDivs = document.getElementById('weatherBox')
   })
 const gifAPI= "https://api.giphy.com/v1/gifs/random?api_key=Hyh8h2gK77e56YA3itW1ACX0Szy1D0CD&tag=&rating=G"
 fetch(gifAPI, {
-  method: 'GET', // or 'PUT'
+  method: 'GET', 
   headers: new Headers({
       'Accept': 'application/json',
   })
@@ -48,7 +48,7 @@ fetch(gifAPI, {
 
   const trumpAPI = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
   fetch(trumpAPI, {
-    method: 'GET', // or 'PUT'
+    method: 'GET', 
     headers: new Headers({
         'Accept': 'application/json',
     })
@@ -57,10 +57,10 @@ fetch(gifAPI, {
 getJSON(trumpAPI, function(error,data){
 document.getElementById("trumpQuote").innerHTML = data.message;
 })
-
+//Hier kreeg ik een error bij de CORS, ik had hiervoor een extensie voor chrome gedownload en dan werkte het wel 
 const catAPI = "https://cat-fact.herokuapp.com/facts/random"
   fetch(trumpAPI, {
-    method: 'GET', // or 'PUT'
+    method: 'GET', 
     headers: new Headers({
         'Accept': 'application/json',
     })
