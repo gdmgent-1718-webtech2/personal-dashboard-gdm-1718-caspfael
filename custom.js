@@ -87,7 +87,7 @@ fetch(newsAPI, {
       'Accept': 'application/json',
   })
   })
-
+// Ik wou dit eerst in een forloop steken zodat hij dit zou doen voor elk artikel in de array maar het lukte mij maar niet dus heb ik gewoon 10 divs manueel gemaakt.
   getJSON(newsAPI,function(error,data){
     
      document.getElementById("title0").innerHTML= data.articles[0].title;
@@ -180,20 +180,4 @@ fetch(newsAPI, {
   
   
   
-   /* getJSON(newsAPI,function(error,data){
-   for (let i = 0; i< data.articles[i]; i++) {
-     
-      document.getElementById("title"+i).innerHTML= data.articles[i].title;
-      document.getElementById("article"+i).innerHTML= data.articles[i].description;
-      document.getElementById("articleImage"+i).src=data.articles[i].urlToImage;
-      document.getElementById("hlink"+i).innerHTML= data.articles[i].url;
-      document.getElementById("date"+i).innerHTML= data.articles[i].publishedAt;
-      document.getElementById("author"+i).innerHTML= data.articles[i].author;
-    }
-
-  function genarateNews() {
-    let newsFeed =document.getElementById('newsFeed');
-    newsFeed.document.createElement('div');
-    newsFeed.className = "article"
-    
-  }*/
+   
