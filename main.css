@@ -17,7 +17,9 @@ font-family:  'Arial Narrow Bold', sans-serif}
   margin: 10%;
   padding: 3%;
   font-family: sans-serif;
-    
+}
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .gifDiv{
     text-align: center;
@@ -28,6 +30,22 @@ font-family:  'Arial Narrow Bold', sans-serif}
     align-self: center;
     padding: 2% 10%;
     
+}
+.article{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.newsDiv {
+    margin-top: 10%;
+}
+.date {
+color: dimgray;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.author {
+    font-family:  'Arial Narrow Bold', sans-serif;
+
+}
+.hlink {
+    color: deepskyblue;
 }
 img{
     size: 100%;
